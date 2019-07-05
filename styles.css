@@ -40,6 +40,10 @@ body {
   border-bottom: 5px solid black;
 }
 
-.ft600 {
+.ft700 {
   font-weight: 700;
+}
+
+.ft800 {
+  font-weight: 800;
 }
