@@ -1,11 +1,20 @@
-/* .first-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2%;
-    max-height: 450px;
-    overflow: hidden;
+.first-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2%;
+  max-height: 3% !important;
+  overflow: hidden;
 }
 
+.imageContainer {
+  max-width: 100%;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  margin: auto;
+}
+/*
 .first-col1 {
     text-align: left;
 }
@@ -47,4 +56,3 @@ body {
 .ft800 {
   font-weight: 800;
 }
-
