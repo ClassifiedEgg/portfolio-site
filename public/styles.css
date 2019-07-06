@@ -17,10 +17,22 @@
   border-bottom: 5px solid black;
 }
 
+.mobFirst p {
+  margin: 10% 0;
+}
+
 @media only screen and (max-width: 600px) {
   .columns {
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 2%;
+  }
+
+  .imageShow {
+    display: none;
+  }
+
+  .mobFirst p {
+    margin: 0;
   }
 }
